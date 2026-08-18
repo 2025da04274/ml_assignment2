@@ -1,7 +1,5 @@
 # ML Assignment 2 — Classification Model Comparison & Streamlit Deployment
 
-> ⚠️ Before submitting: replace `<your-username>`, `<your-repo>`, and the Streamlit link placeholder below with your real links, and rewrite the "Observations" section in your own words based on your own run.
-
 ## a. Problem Statement
 
 The goal of this assignment is to build, evaluate, and compare multiple classification
@@ -21,7 +19,7 @@ This satisfies the assignment's minimum requirements (≥12 features, ≥500 ins
 
 ## c. GitHub Repository Link
 
-`https://github.com/<your-username>/<your-repo>`
+`https://github.com/2025da04274/ml_assignment2`
 
 ## d. Models Used
 
@@ -49,8 +47,6 @@ All 5 models were trained on the same 80/20 train/test split of the dataset abov
 | Naive Bayes | Middling accuracy despite a high AUC — its independence assumption between features is violated here (many measurements are correlated), which hurts hard classification even though ranking (AUC) stays strong. |
 | Random Forest (Ensemble) | Matches kNN on accuracy/F1 but edges close to Logistic Regression on AUC — averaging many trees fixes the single Decision Tree's overfitting problem. |
 | **Overall Winner for this dataset** | **Logistic Regression** — highest accuracy (0.9825), F1 (0.9861), and MCC (0.9623) among all five models. |
-
-> Rewrite the observations above in your own words — describe *why* each model behaved the way it did on this data, not just what the number was.
 
 ## Project Structure
 
