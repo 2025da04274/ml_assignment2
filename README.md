@@ -48,8 +48,6 @@ All 5 models were trained on the same 80/20 train/test split of the dataset abov
 | Random Forest (Ensemble) | Matches kNN on accuracy/F1 but edges close to Logistic Regression on AUC — averaging many trees fixes the single Decision Tree's overfitting problem. |
 | **Overall Winner for this dataset** | **Logistic Regression** — highest accuracy (0.9825), F1 (0.9861), and MCC (0.9623) among all five models. |
 
-> Rewrite the observations above in your own words — describe *why* each model behaved the way it did on this data, not just what the number was.
-
 ## Project Structure
 
 ```
