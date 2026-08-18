@@ -1,7 +1,5 @@
 # ML Assignment 2 — Classification Model Comparison & Streamlit Deployment
 
-> ⚠️ Before submitting: replace `<your-username>`, `<your-repo>`, and the Streamlit link placeholder below with your real links, and rewrite the "Observations" section in your own words based on your own run.
-
 ## a. Problem Statement
 
 The goal of this assignment is to build, evaluate, and compare multiple classification
@@ -21,7 +19,7 @@ This satisfies the assignment's minimum requirements (≥12 features, ≥500 ins
 
 ## c. GitHub Repository Link
 
-`https://github.com/<your-username>/<your-repo>`
+`https://github.com/2025da04274/ml_assignment2`
 
 ## d. Models Used
 
