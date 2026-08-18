@@ -19,7 +19,8 @@ This satisfies the assignment's minimum requirements (≥12 features, ≥500 ins
 
 ## c. GitHub Repository Link
 
-`https://github.com/2025da04274/ml_assignment2`
+
+[ML Assignment 2](https://github.com/2025da04274/ml_assignment2)
 
 ## d. Models Used
 
@@ -76,7 +77,7 @@ streamlit run app.py
 
 ## Deployment
 
-Deployed on Streamlit Community Cloud: `https://mlassignment2-mvni5wpufzy9yuakrc8dms.streamlit.app`
+Deployed on Streamlit Community Cloud: [ML Assignment 2 - Live Demo](https://mlassignment2-mvni5wpufzy9yuakrc8dms.streamlit.app/)
 
 ## Streamlit App Features
 
