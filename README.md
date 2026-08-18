@@ -76,7 +76,7 @@ streamlit run app.py
 
 ## Deployment
 
-Deployed on Streamlit Community Cloud: `<your Streamlit app link here>`
+Deployed on Streamlit Community Cloud: `https://mlassignment2-mvni5wpufzy9yuakrc8dms.streamlit.app`
 
 ## Streamlit App Features
 
