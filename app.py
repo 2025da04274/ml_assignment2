@@ -1,17 +1,3 @@
-"""
-ML Assignment 2 — Streamlit App
-Dataset: Breast Cancer Wisconsin (Diagnostic)
-
-Features:
-  a. CSV upload (test data only, per assignment instructions)
-  b. Model selection dropdown
-  c. Evaluation metrics display
-  d. Confusion matrix / classification report
-
-Run locally:   streamlit run app.py
-Deploy:        push this repo to GitHub -> streamlit.io/cloud -> New app -> app.py
-"""
-
 import json
 import joblib
 import numpy as np
@@ -93,11 +79,14 @@ if uploaded_file is not None:
     # --- d. Confusion matrix / classification report -------------------
     st.markdown("#### Confusion Matrix")
     cm = confusion_matrix(y_true, y_pred)
-    fig, ax = plt.subplots(figsize=(4, 3))
-    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", ax=ax)
+    fig, ax = plt.subplots(figsize=(3, 2.5))
+    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", ax=ax, cbar=False)
     ax.set_xlabel("Predicted")
     ax.set_ylabel("Actual")
-    st.pyplot(fig)
+
+    col_a, col_b = st.columns([1, 2])  # confine it to a narrower column
+    with col_a:
+        st.pyplot(fig, use_container_width=False)
 
     st.markdown("#### Classification Report")
     report = classification_report(y_true, y_pred, output_dict=True)
